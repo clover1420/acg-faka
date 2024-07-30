@@ -2878,7 +2878,7 @@ body .fly-user-main {
 .acg-badge {
     display: inline-block;
     padding: 0.5em 0.85em;
-    font-size: 0.5rem;
+    /* font-size: 0.5rem; */
     font-weight: 600;
     line-height: 1;
     color: #ffffff;
