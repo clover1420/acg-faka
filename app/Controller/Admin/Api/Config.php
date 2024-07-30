@@ -179,7 +179,7 @@ class Config extends Manage
             $mail->IsSMTP();
             $mail->SMTPDebug = 0;
             $mail->SMTPAuth = true;
-            $mail->SMTPSecure = $secure; //tls/ssl;
+            $mail->SMTPSecure = $secure;  //tls/ssl;
             $mail->Host = $config['smtp'];
             $mail->Port = $config['port'];
             $mail->Username = $config['username'];
